@@ -1,0 +1,59 @@
+.postform-container {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.postform-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.toolbar {
+    display: flex;
+    gap: 3px;
+}
+
+.postform-form label {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.postform-form input[type="text"] {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.tiptap-editor {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-height: 180px;
+  padding: 10px;
+  font-size: 15px;
+  background: #fafafa;
+}
+
+.postform-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #0077ff;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.postform-form button:hover {
+  background: #005fcc;
+}
+
+.error {
+  color: #c00;
+  font-size: 14px;
+}

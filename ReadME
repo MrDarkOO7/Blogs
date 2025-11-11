@@ -1,0 +1,24 @@
+** Blog App **
+
+A simple full-stack blogging application built using the MERN stack.
+Users can register, log in, create, edit, and delete their own blog posts. Public users can view all blogs and read individual posts. Session is maintained using JWT Authentification.
+
+** Tech Stack **
+
+Frontend: React (with Context API, React Router, Axios)
+Backend: Node.js, Express.js
+Database: MongoDB (Mongoose)
+Auth: JWT-based authentication
+Styling: CSS
+
+** SetUp Instructions **
+
+-- Clone repo
+-- in blogs-BE create .env and put these fields:
+DB_CONNECTION_SECRET and JWT_SECRET_KEY
+-- run npm i or npm install to install node_modules
+-- use npm start to run backend
+
+-- now open folder blogs-FE
+-- run npm i
+-- enter command npm run dev to run the project
