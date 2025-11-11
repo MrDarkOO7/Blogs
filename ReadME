@@ -11,6 +11,21 @@ Database: MongoDB (Mongoose)
 Auth: JWT-based authentication
 Styling: CSS
 
+** Architecture Overview **
+
+-- Frontend (React)
+
+- Handles routing using React Router.
+- Uses Context API to store and persist authentication status (synced with localStorage).
+- Axios is used for API calls to the Express backend.
+- Protected routes are wrapped in a custom <ProtectedRoute> component.
+
+-- Backend (Express + MongoDB)
+
+- REST API with JWT authentication middleware.
+- Mongoose schema for users and posts.
+- Middleware for auth checks and owner-only access to posts.
+
 ** SetUp Instructions **
 
 -- Clone repo
